@@ -35,14 +35,14 @@ namespace Color_Picker
             ChangeColor();
         }
         public void ChangeColor() {
-            Color с = Color.FromArgb(trackBar_Red.Value, trackBar_Green.Value, trackBar_Blue.Value);
+           // Color с = Color.FromArgb(trackBar_Red.Value, trackBar_Green.Value, trackBar_Blue.Value);
             pictureBox1.BackColor = Color.FromArgb(trackBar_Red.Value, trackBar_Green.Value, trackBar_Blue.Value);
             label_ValueRed.Text = trackBar_Red.Value.ToString();
             label_ValueGreen.Text = trackBar_Green.Value.ToString();
             label_ValueBlue.Text = trackBar_Blue.Value.ToString();
 
             string Text = "#"+trackBar_Red.Value.ToString("X") + trackBar_Green.Value.ToString("X") + trackBar_Blue.Value.ToString("X");
-
+            Clipboard.Clear();
             Clipboard.SetText(Text);
 
         }

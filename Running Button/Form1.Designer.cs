@@ -63,11 +63,10 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btn_R;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Button btn_R;
     }
 }
 

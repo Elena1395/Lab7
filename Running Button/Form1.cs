@@ -33,10 +33,10 @@ namespace Lab7
 
             int x = e.X;
             int y = e.Y;
-            int d1 = 23;//смещение кнопки
+            int d1 = 1;//смещение кнопки
             int dd1 = 20;//диапазон для попадания курсора от границы кнопки
             int d2 = 1;
-            int dd2 = 40;
+            int dd2 = 25;
 
             //textBox2.Text = x.ToString();
             //textBox3.Text = y.ToString();
